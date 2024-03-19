@@ -218,3 +218,11 @@ header {
 .outline-btn {
     border: 1px solid var(--light-primary-clr);
 }
+
+/* footer */
+
+footer {
+    background-color: var(--dark-bg-clr);
+    padding: 2rem;
+    text-align: center;
+}
