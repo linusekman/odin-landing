@@ -53,6 +53,14 @@ img {
     height: auto;
 }
 
+.hero-container,
+.testimonial-container,
+.card-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
 /* header + navigation */
 
 header {
@@ -88,10 +96,7 @@ header {
 .hero-container {
     display: flex;
     gap: 2rem;
-    align-items: center;
-    margin: 0 auto;
-    max-width: 1200px;
-    
+    align-items: center;   
 }
 
 .introduction,
@@ -140,8 +145,6 @@ header {
     flex-wrap: wrap;
     gap: 3rem;
     color: var(--dark-primary-clr);
-    margin: 0 auto;
-    max-width: 1200px;
 }
 
 .card {
@@ -162,4 +165,31 @@ header {
     max-width: 150px;
     margin: 0 auto;
     text-align: center;
+}
+
+/* testimonal section */
+
+.testimonial {
+    background-color: var(--grey-bg-clr);
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+
+.testimonial-container {
+    max-width: 900px;
+}
+
+.testimonial p {
+    color: var(--dark-primary-clr);
+    font-size: 2.25rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.testimonial p:last-of-type {
+    text-align: right;
+    font-size: 1rem;
+    font-weight: 800;
+    font-style: normal;
+    font-family: var(--primary-fnt);
 }
